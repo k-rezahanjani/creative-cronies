@@ -1,0 +1,45 @@
+[
+    {
+      "model": "Silver",
+      "description": "Ideal for individuals who need quick access to basic designs",
+      "price": "8,000,000",
+      "options": [
+        "10 designed instagram posts",
+        "20 designed instagram stories",
+        "motion design",
+        "slide Posts",
+        "graphics & video in up to 4k",
+        "unlimited ideas",
+        "instant Access to our design files"
+      ]
+    },
+    {
+      "model": "Diamond",
+      "description": "Ideal for who who need advanced features and designs for work.",
+      "price": "15,000,000",
+      "options": [
+        "30 designed instagram posts",
+        "60 designed instagram stories",
+        "6 motion design from all",
+        "Slide Posts included",
+        "Graphics & video in up to 4k",
+        "Unlimited ideas",
+        "Instant Access to our design files"
+      ]
+    },
+    {
+      "model": "Gold",
+      "description": "Ideal for businesses who need personalized pages.",
+      "price": "11,000,000",
+      "options": [
+        "20 designed instagram posts",
+        "40 designed instagram stories",
+        "4 motion design from all",
+        "Slide Posts included",
+        "Graphics & video in up to 4k",
+        "Unlimited ideas",
+        "Instant Access to our design files"
+      ]
+    }
+  ]
+  
