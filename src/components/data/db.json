@@ -1,4 +1,5 @@
-[
+{
+  "packages": [
     {
       "model": "Silver",
       "description": "Ideal for individuals who need quick access to basic designs",
@@ -42,4 +43,4 @@
       ]
     }
   ]
-  
+}

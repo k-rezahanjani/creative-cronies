@@ -1,10 +1,14 @@
+import image1 from '../assets/Rectangle.jpg';
+import image2 from '../assets/Rectangle2.png';
+import image3 from '../assets/Rectangle3.png';
+
 const MiniPortfolio = ({ google, microsoft, fedEx, airBnb, scroll }) => {
     return ( 
         <>
-        <div className='d-flex flex-row justify-content-center align-items-center' style={{padding: '10rem'}}>
+        <div className='d-flex flex-row justify-content-center align-items-center mt-5' style={{paddingRight: '10rem', paddingLeft: '10rem'}}>
             <div className="container">
                 <div className="row">
-                    <div className='col-6'>
+                    <div className='col-6 my-auto'>
                         <div className="text-start text-white" style={{width: '25rem'}}>
                             <p className="text-wrap" style={{color: 'orange'}}>A bit about our Portfolio</p>
                             <p className='text-wrap'>
@@ -16,11 +20,17 @@ const MiniPortfolio = ({ google, microsoft, fedEx, airBnb, scroll }) => {
                     <div className='col-3 ms-auto'>
                         <div className='d-flex jusifty-content-end align-items-center float-end'>
                             <div className='d-flex flex-row'>
-                                <div className='me-2' style={{width: '10rem', height: '10rem', borderRadius: '1rem', backgroundColor: 'orange'}}></div>
+                                <div className='box me-2'>
+                                    <img src={image1} alt="image" style={{width: '15rem'}}/>
+                                </div>
                             </div>
                             <div className='d-flex flex-column'>
-                                <div className='my-1' style={{width: '10rem', height: '10rem', borderRadius: '1rem', backgroundColor: 'orange'}}></div>
-                                <div className='my-1' style={{width: '10rem', height: '10rem', borderRadius: '1rem', backgroundColor: 'orange'}}></div>
+                                <div className='box my-1' style={{width: '15rem'}}>
+                                    <img src={image2} alt="image2" style={{width: '15rem', borderRadius: '0.5rem'}}/>
+                                </div>
+                                <div className='box my-1' style={{width: '15rem'}}>
+                                    <img src={image3} alt="image3" style={{width: '15rem', borderRadius: '0.5rem'}}/>
+                                </div>
                             </div>
                         </div>
                     </div>

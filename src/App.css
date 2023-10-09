@@ -34,3 +34,15 @@ body {
 #custom-input:focus {
   border: 0;
 }
+.nav-link:hover, .nav-link:focus {
+  color: orange !important;
+}
+
+.box {
+  transition: transform 0.3s;
+}
+
+.box:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}

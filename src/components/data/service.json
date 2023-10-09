@@ -1,0 +1,40 @@
+{            
+    "images":[
+        {
+            "id": 1,
+            "name":"Logo Design",
+            "image_url" : "../assets/services/logo-design.png"
+        },
+        {
+            "id": 2,
+            "name":"Branding",
+            "image_url" : "../assets/services/branding.png"
+        },
+        {
+            "id": 3,
+            "name":"illustrator",
+            "image_url" : "../assets/services/illustrator.png"
+        },
+        {
+            "id": 4,
+            "name":"Advertisments",
+            "image_url" : "../assets/services/ads.png"
+        },
+        {
+            "id": 5,
+            "name":"Motion",
+            "image_url" : "../assets/services/motion.png"
+        },
+        {
+            "id": 6,
+            "name":"Packaging",
+            "image_url" : "../assets/services/packaging.png"
+        },
+        {
+            "id": 7,
+            "name":"Web",
+            "image_url" : "../assets/services/web.png"
+        }
+        
+    ]
+}
